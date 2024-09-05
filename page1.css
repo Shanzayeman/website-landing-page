@@ -1,0 +1,48 @@
+body{
+    margin: 0px;
+}
+#main{
+    background-image: url(imgglass.avif);
+    width: 1362.5px;
+    height: 641px;
+    opacity: 0.9;
+}
+#content{
+    background-color: rgb(199, 196, 191);
+    display: flex;
+}
+#content > div{
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    color: black;
+}
+#content > div a{
+    color: black;
+    text-decoration: none;
+}
+#content > div:hover{
+    background-color: black;
+}
+#content > div a:hover{
+    color: rgb(253, 252, 252);
+}
+h1{
+    margin: 200px;
+    color: darkblue;
+}
+p{
+    margin-left: 200px;
+    margin-top: -200px;
+    font-size: larger;
+    font-weight: 400;
+    color: blue;
+}
+button{
+   width: 100px;
+   height: 30px;
+    margin-left: 350px;
+    border: none;
+   background-color: rgb(58, 58, 204);
+   cursor: pointer;
+}
